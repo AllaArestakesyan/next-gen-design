@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: syne-font1;
+    src: url('/font/Syne-Bold.ttf');
+}
+@font-face {
+    font-family: syne-font2;
+    src: url('/font/Syne-ExtraBold.ttf');
+}
+@font-face {
+    font-family: syne-font3;
+    src: url('/font/Syne-Medium.ttf');
+}
+@font-face {
+    font-family: syne-font4;
+    src: url('/font/Syne-Regular.ttf');
+}
+@font-face {
+    font-family: syne-font5;
+    src: url('/font/Syne-SemiBold.ttf');
+}
+@font-face {
+    font-family: montserrat-font1;
+    src: url('/font/Montserrat-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: montserrat-font2;
+    src: url('/font/Montserrat-VariableFont_wght.ttf');
+}
