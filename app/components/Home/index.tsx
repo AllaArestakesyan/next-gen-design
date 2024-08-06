@@ -306,7 +306,7 @@ export const Home = () => {
                 <section className="footer-section-1">
                     <div>
                         <span>Contact With NextGen</span>
-                        <h2>"Don’t hesitate to reach out with any questions—we're here to help!"</h2>
+                        <h2>{'"'}Don’t hesitate to reach out with any questions—we're here to help!{'"'}</h2>
                         <p>We have a passion to deliver furniture for all. Bringing you quality furniture at the best value, so you’ll always be able to find something you adore at the right price.</p>
                     </div>
                     <div>
