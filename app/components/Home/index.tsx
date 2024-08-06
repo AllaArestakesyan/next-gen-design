@@ -1,5 +1,6 @@
 "use client"
 
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react'
 import './style.scss';
@@ -202,11 +203,11 @@ export const Home = () => {
                                     <div>
                                         <span>Nico Williams JR</span>
                                         <span>
-                                            <img src="/Interier/star.png" alt="" />
-                                            <img src="/Interier/star.png" alt="" />
-                                            <img src="/Interier/star.png" alt="" />
-                                            <img src="/Interier/star.png" alt="" />
-                                            <img src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20}  src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20}  src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20}  src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20}  src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20}  src="/Interier/star.png" alt="" />
                                         </span>
                                     </div>
                                     <p>
@@ -225,11 +226,11 @@ export const Home = () => {
                                     <div>
                                         <span>Nico Williams JR</span>
                                         <span>
-                                            <img src="/Interier/star.png" alt="" />
-                                            <img src="/Interier/star.png" alt="" />
-                                            <img src="/Interier/star.png" alt="" />
-                                            <img src="/Interier/star.png" alt="" />
-                                            <img src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20}  src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20}  src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20}  src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20}  src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20}  src="/Interier/star.png" alt="" />
                                         </span>
                                     </div>
                                     <p>
@@ -248,11 +249,11 @@ export const Home = () => {
                                     <div>
                                         <span>Nico Williams JR</span>
                                         <span>
-                                            <img src="/Interier/star.png" alt="" />
-                                            <img src="/Interier/star.png" alt="" />
-                                            <img src="/Interier/star.png" alt="" />
-                                            <img src="/Interier/star.png" alt="" />
-                                            <img src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20} src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20} src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20} src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20} src="/Interier/star.png" alt="" />
+                                            <Image width={20} height={20} src="/Interier/star.png" alt="" />
                                         </span>
                                     </div>
                                     <p>
@@ -282,9 +283,9 @@ export const Home = () => {
                                                 <span>
                                                     {
                                                         elm.done ?
-                                                            <img onClick={min} src="/Interier/-.png" />
+                                                            <Image alt='...' width={11} height={11} onClick={min} src="/Interier/-.png" />
                                                             :
-                                                            <img onClick={() => plus(elm.id)} src="/Interier/+.png" />
+                                                            <Image alt='...' width={11} height={11} onClick={() => plus(elm.id)} src="/Interier/+.png" />
                                                     }
                                                 </span>
                                             </div>
@@ -336,10 +337,10 @@ export const Home = () => {
                             </li>
                         </ul>
                         <div>
-                            <img src="/Interier/instagram-white.svg.png" alt="" />
-                            <img src="/Interier/Facebook.png" alt="" />
-                            <img src="/Interier/Linkedin.png" alt="" />
-                            <img src="/Interier/Twitter.png" alt="" />
+                            <Image width={24} height={24} src="/Interier/instagram-white.svg.png" alt="" />
+                            <Image width={24} height={24} src="/Interier/Facebook.png" alt="" />
+                            <Image width={24} height={24} src="/Interier/Linkedin.png" alt="" />
+                            <Image width={24} height={24} src="/Interier/Twitter.png" alt="" />
                         </div>
                     </nav>
                 </section>
